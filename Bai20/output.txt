@@ -1,0 +1,54 @@
+Ma hang: ma1
+Ten hang: hanghoa1
+Nha san xuat: Nguyen Phan Hai
+Ma hoa don: don1
+Loai hoa don(1.mua , 2.ban): 1
+So Luong: 10
+Ngay Thang: 13/02/2022
+Gia: 1000
+
+Ma hang: ma2
+Ten hang: hanghoa2
+Nha san xuat: Le Tien Chung
+Ma hoa don: don2
+Loai hoa don(1.mua , 2.ban): 1
+So Luong: 7
+Ngay Thang: 15/11/2024
+Gia: 2000
+
+Ma hang: ma3
+Ten hang: hanghoa1
+Nha san xuat: Luong Van Son
+Ma hoa don: don3
+Loai hoa don(1.mua , 2.ban): 2
+So Luong: 3
+Ngay Thang: 15/11/2024
+Gia: 2000
+
+Ma hang: ma4
+Ten hang: hanghoa2
+Nha san xuat: Truong Quang Vinh
+Ma hoa don: don4
+Loai hoa don(1.mua , 2.ban): 2
+So Luong: 4
+Ngay Thang: 15/11/2024
+Gia: 2000
+
+Ma hang: ma5
+Ten hang: hanghoa1
+Nha san xuat: Tran Hai Dang
+Ma hoa don: don5
+Loai hoa don(1.mua , 2.ban): 2
+So Luong: 2
+Ngay Thang: 13/02/2022
+Gia: 1000
+
+Ma hang: ma6
+Ten hang: hanghoa2
+Nha san xuat: Dinh Ngoc The
+Ma hoa don: don6
+Loai hoa don(1.mua , 2.ban): 1
+So Luong: 7
+Ngay Thang: 15/11/2024
+Gia: 2000
+

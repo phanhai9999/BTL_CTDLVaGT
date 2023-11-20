@@ -1,0 +1,48 @@
+ma1
+hanghoa1
+Nguyen Phan Hai
+don1
+1
+10
+13/02/2022
+1000
+ma2
+hanghoa2
+Le Tien Chung
+don2
+1
+7
+15/11/2024
+2000
+ma3
+hanghoa1
+Luong Van Son
+don3
+2
+3
+15/11/2024
+2000
+ma4
+hanghoa2
+Truong Quang Vinh
+don4
+2
+4
+15/11/2024
+2000
+ma5
+hanghoa1
+Tran Hai Dang
+don5
+2
+2
+13/02/2022
+1000
+ma6
+hanghoa2
+Dinh Ngoc The
+don6
+1
+7
+15/11/2024
+2000
