@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            var form = document.getElementsByTagName('form')[0]; // Fix: Removed the second variable declaration
+
+            form.addEventListener('submit', function(event){
+                if(!isEmailValid()){
+                    alert("Vui lòng nhập một địa chỉ email hợp lệ");
+                    event.preventDefault();
+                }
+                if(!isCommmentValid()){
+                    alert("Vui lòng nhập bình luận");
+                    event.preventDefault();
+                }
+                if(!isRatingValid()){
+                    alert("Vui lòng nhập đánh giá bằng số");
+                    event.preventDefault();
+                }
+                if(!isNameValid()){
+                    alert("Vui long nhap ten");
+                    event.preventDefault();
+                }
+                if(!isPhoneValid()){
+                    alert("vui long nhap dung dinh dang sdt");
+                    event.preventDefault();
+                }
+            });
+
+            function isEmailValid(){
+                var email = document.getElementById('email').value;
+                var emailPattern = /^[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+                if(email == "" || !emailPattern.test(email)){
+                    return false;
+                }
+                return true;
+            }
+
+            function isCommmentValid(){
+                var comment = document.getElementById('com').value;
+                if(comment == ""){
+                    return false;
+                }
+                return true;
+            }
+
+            function isRatingValid(){
+                var rating = document.getElementById('rating').value;
+                if(rating == "" || isNaN(rating)){
+                    return false;
+                }
+                return true;
+            }
+            function isNameValid(){
+                var name = document.getElementById('name').value;
+                var namePattern = /^[a-zA-Z\s]+$/;
+                if(name == "" || !namePattern.test(name)){
+                    return false;
+                }
+                return true;
+            }
+
+            function isPhoneValid(){
+                var phone = document.getElementById('phone').value;
+                var phonePattern = /^(\+\d{1,2}\s?)?(\(\d{1,4}\)|\d{1,4})[-.\s]?\d{1,10}$/;
+                if(phone == "" || !phonePattern.test(phone) || isNaN(phone)){
+                    return false;
+                }
+                return true;
+            }
+        });
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email"> <br>
+        <label for="comment">Comment</label><br>
+        <textarea name="com" id="com" cols="30" rows="5"></textarea>
+        <br>
+        <label for="rating">Rating</label>
+        <input type="text" name="rating" id="rating" size="5">
+        <br>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name" size="30">
+        <br>
+        <label for="phone">Phone</label>
+        <br>
+        <input type="text" name="phone" id="phone" size="20">
+        <br>
+        <br>
+        <input type="submit" value="submit" name="submit" id="submit">
+    </form>
+</body>
+</html>
